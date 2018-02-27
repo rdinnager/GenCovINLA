@@ -1,0 +1,17 @@
+Package: GenCovINLA
+Version: 0.0.0.9000
+Title: General Covariance Modeling with INLA
+Description: This package provides a wrapper around the INLA package to simplify modeling data using weighted additive covariance matrices. It provides a simple lme4-like formula syntax. It is partly meant as a drop-in (Bayesian) replacement for the regress package, which is no longer maintained. It also has additional functionality over regress, including 'nested' covariance effects.
+Authors@R: person("Russell", "Dinnage", email = "r.dinnage@gmail.com", role = c("aut", "cre"))
+License: GPL 3.0
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    dplyr,
+    lme4
